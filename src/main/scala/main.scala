@@ -27,6 +27,6 @@ def main(): Unit = {
   println("7.  10 001st prime number: " + nthPrime(10001))
   println("8.  Thirteen adjacent digits in the 1000-digit number that have the greatest product: " +
     largestProductInNumber(bigNumber, 13))
-  println("9.  Product of Pythagorean triplet members: " )
-  println("10. Sum of all the primes below two million: " )
+  println("9.  Product of Pythagorean triplet members: " + pythagoreanTriplet())
+  println("10. Sum of all the primes below two million: " + sumOfPrimes(2000000))
 }
